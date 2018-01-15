@@ -1,7 +1,7 @@
 HubCommander
 =====================
 <img align="left" src="docs/logos/HC_full_logo.png" alt="HubCommander Logo" width="50%" />
-
+A
 [![NetflixOSS Lifecycle](https://img.shields.io/badge/NetflixOSS-active-brightgreen.svg)]()
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Netflix/hubcommander)
 
