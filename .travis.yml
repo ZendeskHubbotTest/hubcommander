@@ -26,4 +26,11 @@ env:
     - secure: "KOV1gCE4dZc+ujgsj24iPVyUfWBTJAJJB1nRDvQr9TEWuo4cdHM2r06r4jnJ7XX1594RW6PTe628ibOJCitcbXhphGuYG3IiWTbASmwsMla6NwJqc9fbfxwf1uEyHEBDNtf3Bcw1CnEH6eV1EjIelFOeypjY4llD3TVY8W3onyaGrzKKysUJGTaP1WutSN4VH/VNeVUPvQjxnkxS9ocC0Hq2emOiLh4xZE+5k9gE38HmlsOCKtlQVgJaKA3lyi9NFwd0oSlmqFQVqksrqxiQsDTg/EHl5GE7XfA8n6QfN8o8cNKmsL/+ErVNDiC4tMYNhUhv9jH0rnT/+027QhZc5ISQO4jd7SHvInB+gqzPZ5OXZ2jX5FFoblwM9QTqgSOhPfHTs1ta8BaWx4q3GgRYZSLbmI/lWMXI5llw/z9U0HTzGu2uQ5pS5S+T4IVz/kkg1cFiAT+cBqVZ62Q6B1ITA4gs3PEdQudyXE7y7lIN8riaR6uUwENDlo9mwk9R58+PSkKNgMD2jVv19AELjK3JGiItLi1SnvOAfjFv1aan+LHYmNWH1EeVPccxXheiocnKBuZd7uPN0SqdmrGAT+W5wKjJEHF/MNwY/7WZSDGOrgW33jgCiCE82xyTrKxueT1auH7BJomVYJ3mkvIM2+m6smi73Xw18Ud+cmegmGbqGyk="
 
 notifications:
-    slack: zendesksecopchatbot:cD7jlOeLITvMrkueNMAr9PSX
+    slack: 
+      rooms:
+        - zendesksecopchatbot:cD7jlOeLITvMrkueNMAr9PSX
+      template:
+        template:
+          - "%{repository_slug} (%{commit}) : %{message} %{foo} "
+          - "Build details: %{build_url}"
+    
