@@ -30,7 +30,6 @@ notifications:
       rooms:
         - zendesksecopchatbot:cD7jlOeLITvMrkueNMAr9PSX
       template:
-        template:
-          - "%{repository_slug} (%{commit}) : %{message} %{foo} "
-          - "Build details: %{build_url}"
+        - "%{repository_slug} (%{commit}) : %{message} %{foo} "
+        - "Build details: %{build_url}"
     
